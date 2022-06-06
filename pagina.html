@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="fondo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSICA</title>
+</head>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+        .header {
+      background-color: #F0FFF0;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+    }
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      height: 300px; 
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .footer {
+      background-color: aliceblue;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    @media (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+    </style>
+<body>
+    <h1 style="text-align:center">Mejores canciones de peliculas estilo 80s</h1>
+    <h2 style="color: white">Estas son las mejores canciones de estas 3 peliculas estilo retro</h2>
+    <p style="color: #F0FFF0">Estan son las canciones mas reconocidas que marcaron una epoca y son recordadas por sus canciones, sus memorables personajes, sus emocionantes tramas y un sin numero de puntos que tienen estas peliculas con estilo retro de los 80s</p>
+    <div class="header">
+        <h2>TOP 3</h2>
+      </div>
+      <div class="row">
+        <div class="column" style="background-image: url(scarface.jpg);">SCARFACE:  Tony Montana es un emigrante cubano frío y sanguinario que se instala en Miami con el propósito de convertirse en un gángster importante. Con la colaboración de su amigo Manny Rivera inicia una fulgurante carrera delictiva con el objetivo de acceder a la cúpula de una organización de narcos.</div>
+        <div class="column" style="background-image: url(drive.jpg);">DRIVE: Un misterioso conductor especialista de cine y mecánico en un taller, por la noche se convierte en un talentoso chófer para delincuentes. Su jefe, Shannon le busca trabajos en películas de Hollywood o fugas para criminales. Sin embargo, su mundo cambia cuando conoce a Irene, una madre solitaria que tiene al marido en la cárcel, y se ve enredado en un robo que involucra a la alta esfera de la mafia.</div>
+        <div class="column" style="background-image: url(futuro.jpg);">VOLVER AL FUTURO: El adolescente Marty McFly es amigo de Doc, un científico que ha construido una máquina del tiempo. Cuando los dos prueban el artefacto, un error fortuito hace que Marty llegue a 1955, año en el que sus padres iban al instituto y todavía no se habían conocido. Después de impedir su primer encuentro, Marty deberá conseguir que se conozcan y se enamoren, de lo contrario su existencia no sería posible.</div>
+      </div>
+      
+      <div class="footer">
+        <p>Luis Enrique Portillo Orellana Carné: 0907-22-15191 (6/5/2022)</p>
+      </div>
+      <h2 style="color: #F0FFF0">She is on fire-SCARFACE</h2>
+      <video src="Scarface.mp4" width="600" height="400" controls></video>
+      <h2 style="color: #F0FFF0">Under Your Spell-DRIVE</h2>
+      <video src="under.mp4" width="600" height="400" controls></video>
+      <h2 style="color: #F0FFF0">Power Of Love-VOLVER AL FUTURO</h2>
+      <video src="power.mp4" width="600" height="400" controls></video>
+</body>
+</html>
